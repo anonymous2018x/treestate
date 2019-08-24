@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the patners_init() hook (in hooks/patners.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="patners-last_name-<%%VALUE(id)%%>" class="patners-last_name"><%%SELECT%%><%%VALUE(last_name)%%><%%ENDSELECT%%></td>
+		<td id="patners-first_name-<%%VALUE(id)%%>" class="patners-first_name"><%%SELECT%%><%%VALUE(first_name)%%><%%ENDSELECT%%></td>
+		<td id="patners-city-<%%VALUE(id)%%>" class="patners-city"><%%SELECT%%><%%VALUE(city)%%><%%ENDSELECT%%></td>
+		<td id="patners-product-<%%VALUE(id)%%>" class="patners-product"><%%SELECT%%><%%VALUE(product)%%><%%ENDSELECT%%></td>
+		<td id="patners-brand-<%%VALUE(id)%%>" class="patners-brand"><%%SELECT%%><%%VALUE(brand)%%><%%ENDSELECT%%></td>
+		<td id="patners-mobile-<%%VALUE(id)%%>" class="patners-mobile"><%%SELECT%%><%%VALUE(mobile)%%><%%ENDSELECT%%></td>

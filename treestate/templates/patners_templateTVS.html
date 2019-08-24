@@ -1,0 +1,21 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the patners_init() hook (in hooks/patners.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="patners-last_name-<%%VALUE(id)%%>" class="patners-last_name"><%%VALUE(last_name)%%></td>
+		<td id="patners-first_name-<%%VALUE(id)%%>" class="patners-first_name"><%%VALUE(first_name)%%></td>
+		<td id="patners-gender-<%%VALUE(id)%%>" class="patners-gender"><%%VALUE(gender)%%></td>
+		<td id="patners-sexual_orientation-<%%VALUE(id)%%>" class="patners-sexual_orientation"><%%VALUE(sexual_orientation)%%></td>
+		<td id="patners-age-<%%VALUE(id)%%>" class="patners-age"><%%VALUE(age)%%></td>
+		<td id="patners-image-<%%VALUE(id)%%>" class="patners-image"><a href="<%%TRANSLATION(ImageFolder)%%><%%VALUE(image)%%>" data-lightbox="patners-image"><img src="thumbnail.php?i=<%%VALUE(image)%%>&t=patners&f=image&v=tv" class="img-thumbnail"></a></td>
+		<td id="patners-state-<%%VALUE(id)%%>" class="patners-state"><%%VALUE(state)%%></td>
+		<td id="patners-mobile-<%%VALUE(id)%%>" class="patners-mobile"><%%VALUE(mobile)%%></td>
+		<td id="patners-tobacco_usage-<%%VALUE(id)%%>" class="patners-tobacco_usage"><%%VALUE(tobacco_usage)%%></td>
+		<td id="patners-alcohol_intake-<%%VALUE(id)%%>" class="patners-alcohol_intake"><%%VALUE(alcohol_intake)%%></td>
+		<td id="patners-history-<%%VALUE(id)%%>" class="patners-history"><%%VALUE(history)%%></td>
+		<td id="patners-surgical_history-<%%VALUE(id)%%>" class="patners-surgical_history"><%%VALUE(surgical_history)%%></td>
+		<td id="patners-obstetric_history-<%%VALUE(id)%%>" class="patners-obstetric_history"><%%VALUE(obstetric_history)%%></td>
+		<td id="patners-genetic_diseases-<%%VALUE(id)%%>" class="patners-genetic_diseases"><%%VALUE(genetic_diseases)%%></td>
